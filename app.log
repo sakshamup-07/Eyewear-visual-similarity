@@ -86,3 +86,6 @@
 2026-01-20 01:24:36,505 | INFO | Query latency: 2.29s
 2026-01-20 01:24:47,318 | INFO | Query latency: 2.17s
 2026-01-20 01:24:57,213 | INFO | Query latency: 2.26s
+2026-01-20 01:54:55,593 | INFO | Query latency: 2.91s
+2026-01-20 01:55:07,263 | INFO | Query latency: 2.80s
+2026-01-20 01:55:11,273 | INFO | Query latency: 2.40s

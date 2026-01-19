@@ -3,8 +3,8 @@ from PIL import Image
 from transformers import CLIPProcessor, CLIPModel
 from pinecone import Pinecone
 
-PINECONE_API_KEY = "pcsk_6E6LwA_EZP8x4Zo4yt4QJGoeE6jt6GE6Zq7sRVN9Zi1Q7zMiiLMzAVAq5HdDBdt5BD5dzW"
-INDEX_NAME = "lenskart-eyewear"
+PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
+INDEX_NAME = st.secrets["PINECONE_INDEX"]
 
 # Init Pinecone
 pc = Pinecone(api_key=PINECONE_API_KEY)

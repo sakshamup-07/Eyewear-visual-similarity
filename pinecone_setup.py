@@ -1,7 +1,7 @@
 from pinecone import Pinecone, ServerlessSpec
 
-PINECONE_API_KEY = "pcsk_6E6LwA_EZP8x4Zo4yt4QJGoeE6jt6GE6Zq7sRVN9Zi1Q7zMiiLMzAVAq5HdDBdt5BD5dzW"
-PINECONE_ENV = "us-east-1"  
+PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
+PINECONE_ENV = st.secrets["PINECONE_ENV"] 
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
